@@ -1,11 +1,7 @@
+// Challenge 1: Are the letters unique?
+
 import Foundation
 import XCTest
-
-/*
- Write a function that accepts a String as its only
- parameter, and returns true if the string has only unique
- letters, taking letter case into account.
-*/
 
 struct Challenge01 {
 
