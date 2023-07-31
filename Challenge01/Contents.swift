@@ -15,17 +15,22 @@ struct Challenge01 {
         }
         return true
     }
+
+    // Update - there is a better solution tough
+    func hasUniqueLettersImproved(value: String) -> Bool {
+        Set(value).count == value.count
+    }
 }
 
 class Challenge01Tests: XCTestCase {
-    
+
     override func setUp() {
         super.setUp()
     }
     override func tearDown() {
         super.tearDown()
     }
-    
+
     func test01() {
         let entry = "No duplicates"
         let hasUniqueLetters = Challenge01().hasUniqueLetters(value: entry)
