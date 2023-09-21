@@ -7,4 +7,4 @@ Solutions for coding challenges found in Paul Hudson's Swift Coding Challenge bo
 
 ## Percentage complete
 
-3 of 64 = **4,68%**
+4 of 64 = **6,25%**
